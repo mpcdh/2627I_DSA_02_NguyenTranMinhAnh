@@ -1,0 +1,1 @@
+Trong các cặp (p,q), những cặp (4,0), (4,5), (5,0), (6,4), (8,9) có thể là tham số của lệnh union(p, q) gần nhất.
