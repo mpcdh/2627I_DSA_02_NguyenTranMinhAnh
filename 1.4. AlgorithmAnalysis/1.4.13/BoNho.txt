@@ -1,0 +1,39 @@
+Bộ nhớ cần thiết:
+a. Accumulator:
+- 1 biến int n: 4 bytes
+- 2 biến double sum, mu: 16 bytes
+- Object overhead: 16 bytes
+-> Tổng: 4 + 16 + 16 = 36 bytes
+-> Padding: + 4 bytes -> 40 bytes
+b. Transaction
+- 1 biến String who: 8 bytes (tham chiếu)
+- 1 biến Date when: 8 bytes (tham chiếu)
+- 1 biến double amount: 8 bytes:
+- Object overhead: 16 bytes
+-> Tổng: 8 + 8 + 8 + 16 = 40 bytes
+c. FixedCapacityStackOfStrings với kích thước mảng C và N phần tử trong stack
+- 1 biến String[] a: 8 bytes (tham chiếu)
+- 1 biến int n: 4 bytes
+-> Tổng:
+- Đối tượng FixedCapacityStackOfStrings: Overhead 16 bytes, Tham chiếu a 8 bytes, Biến n 4 bytes, Padding 4 bytes -> Tổng 32 bytes
+- Mảng String[] kích thước C: Overhead 24 bytes, C tham chiếu String 8C bytes -> Tổng: 24 + 8C bytes
+-> Tổng: 56 + 8C bytes
+d. Point2D
+- 1 biến double x: 8 bytes
+- 1 biến double y: 8 bytes
+- Object overhead: 16 bytes
+-> Tổng: 8 + 8 + 16 = 32 bytes
+e. Interval1D
+- 1 biến double min: 8 bytes
+- 1 biến double max: 8 bytes
+- Object overhead: 16 bytes
+-> Tổng: 8 + 8 + 16 = 32 bytes
+f. Interval2D
+- 1 biến Interval1D x: 8 bytes (tham chiếu)
+- 1 biến Interval1D y: 8 bytes (tham chiếu)
+- Object overhead: 16 bytes
+-> Tổng: Overhead 16 bytes, 2 biến Interval1D 16 bytes, Bộ nhớ 2 đối tượng Interval1D 64 bytes -> Tổng 96 bytes
+g. Double
+- 1 biến double value: 8 bytes
+- Object overhead: 16 bytes
+-> Tổng: 8 + 16 = 24 bytes

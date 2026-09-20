@@ -5,6 +5,11 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/1.1. Union Find/1.1.1. Tìm bug" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Algorithms/edu/princeton/cs/algs4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1.4. AlgorithmAnalysis/1.4.2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1.4. AlgorithmAnalysis/1.4.10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1.4. AlgorithmAnalysis/1.4.12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1.4. AlgorithmAnalysis/1.4.14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1.4. AlgorithmAnalysis/1.4.8" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
