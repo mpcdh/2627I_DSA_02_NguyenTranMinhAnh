@@ -21,6 +21,9 @@
       <sourceFolder url="file://$MODULE_DIR$/2.1. Elemental Sorts/2.1.6" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2.1. Elemental Sorts/2.1.7" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2.2. Merge Sort/2.2.2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3.2. BinarySearchTree &amp; BalanceSearchTree/3.2.3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3.2. BinarySearchTree &amp; BalanceSearchTree/3.2.4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3.2. BinarySearchTree &amp; BalanceSearchTree/3.2.5" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
